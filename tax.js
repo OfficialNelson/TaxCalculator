@@ -38,5 +38,5 @@ const processEntries = () => {
 
 document.addEventListener("DOMContentLoaded", () => {
     $("#calculate").addEventListener("click", processEntries);
-    $("#sale").focus(); // focus cursor
+    $("#sale").focus(); // focus cursor line 
 });
